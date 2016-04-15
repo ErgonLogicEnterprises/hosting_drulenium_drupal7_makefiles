@@ -12,6 +12,7 @@ projects[libraries][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
 
 ; Libraries
+libraries[php-webdriver][directory_name] = "selenium_webdriver"
 libraries[php-webdriver][download][type] = get
 libraries[php-webdriver][download][url] = https://github.com/facebook/php-webdriver/archive/master.zip
 libraries[php-webdriver][destination] = libraries
