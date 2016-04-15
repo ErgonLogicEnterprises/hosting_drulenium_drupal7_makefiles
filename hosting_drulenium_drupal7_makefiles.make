@@ -9,6 +9,7 @@ projects[drupal][version] = 7.43
 ; Drulenium requirements
 projects[ctools][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
+projects[diff][subdir] = "contrib"
 
 ; Libraries
 libraries[php-webdriver][download][type] = get
@@ -17,3 +18,6 @@ libraries[php-webdriver][destination] = libraries
 
 ; Drulenium module
 projects[drulenium][subdir] = "contrib"
+
+; Theme
+projects[shiny]
