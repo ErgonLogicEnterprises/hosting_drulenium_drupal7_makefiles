@@ -9,3 +9,11 @@ projects[drupal][version] = 7.43
 ; Drulenium requirements
 projects[ctools][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
+
+; Libraries
+libraries[php-webdriver][download][type] = get
+libraries[php-webdriver][download][url] = https://github.com/facebook/php-webdriver/archive/master.zip
+libraries[php-webdriver][destination] = libraries
+
+; Drulenium module
+projects[drulenium][subdir] = "contrib"
