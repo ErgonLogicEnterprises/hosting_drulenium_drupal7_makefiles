@@ -21,4 +21,3 @@ libraries[php-webdriver][destination] = libraries
 projects[drulenium][subdir] = "contrib"
 
 ; Theme
-projects[shiny]
